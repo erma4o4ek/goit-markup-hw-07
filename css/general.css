@@ -228,7 +228,7 @@ input[type="radio"].visually-hidden {
 
 /*menu-nav*/
 /* site-navigation*/
-.site-navigation {
+ul.site-navigation {
   margin-left: 93px;
 }
 

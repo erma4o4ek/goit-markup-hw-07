@@ -1,17 +1,9 @@
 /*menu-nav*/
 /* site-navigation*/
 
-.site-navigation {
+ul.site-navigation {
   margin-left: 93px;
 }
-
-/* .site-navigation .item { 
-  margin-right: 50px;
-} */
-
-/* .site-navigation .item:last-child {
-  margin-right: 0px; 
-*/
 
 .site-navigation__item+.site-navigation__item {
   margin-left: 50px;
