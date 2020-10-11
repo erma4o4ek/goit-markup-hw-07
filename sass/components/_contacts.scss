@@ -1,0 +1,33 @@
+/*contact*/
+
+.contact {
+  margin-left: auto;
+}
+
+.contact__item+.contact__item {
+  margin-left: 50px;
+}
+
+.contact__link {
+  color: $primary-text-color;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+
+  transition: opacity 250ms $transition-time;
+}
+
+.contact__link:hover,
+.contact__link:focus {
+  color: $accent-color;
+}
+
+.contact__mail-icon,
+.contact__phone-icon {
+  fill: $primary-text-color;
+
+  margin-right: 10px;
+}
+

@@ -1,0 +1,82 @@
+/* Оформление соцсетей (footer) */
+
+.box-socseti {
+  display: block;
+}
+
+.box-socseti__title {
+  margin: 0;
+
+  color: $text-color;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.socseti {
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+
+.socseti__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socseti__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: $social-footer-color;
+  border: 1px solid $social-footer-color;
+  border-radius: 50%;
+
+  transition: opacity 250ms $transition-time;
+}
+
+
+.socseti__link:hover,
+.socseti__link:focus{
+  background-color: $accent-color;
+}
+
+/*main*/ 
+
+.social{
+  justify-content: center;
+  }
+  
+  .social__item:not(:last-child) {
+      margin-right: 10px;
+  }
+  
+  .social__item {
+      margin-bottom: 30px;
+  }
+  
+  .social__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 44px;
+      height: 44px;
+      background-color: $text-color;
+      border: 1px solid $text-color;
+      border-radius: 50%; 
+  
+      transition: opacity 250ms $transition-time;
+  }
+  
+  .social__link:hover,
+  .social__link:focus{
+      background-color: $accent-color;
+  }
+  
+  
+  
+  

@@ -1,0 +1,25 @@
+/*logo*/
+
+.logo {
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo__primary {
+  color: $logo-color;
+}
+
+.logo__secondary {
+  color: $text-color;
+}
+
+.logo__third {
+  color: $primary-bg-color;
+}
+
+.footer__logo {
+  display: inline-block;
+} 
