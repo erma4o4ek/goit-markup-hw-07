@@ -12,13 +12,39 @@
 .page {
   color: #757575;
   font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
-.page-header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  background-color: #ffffff;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list {
@@ -27,38 +53,13 @@
   list-style: none;
 }
 
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.flexbox {
-  display: flex;
-}
-
-.image {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.text {
+.link {
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .\visually-hidden:not(:focus):not(:active),
@@ -76,7 +77,31 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-/*logo*/
+.fon {
+  background-color: #2f303a;
+}
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.page-nav {
+  align-items: center;
+}
+
+.button {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -100,160 +125,17 @@ input[type="radio"].visually-hidden {
   display: inline-block;
 }
 
-/*Эффективные решения для вашего бизнеса*/
-/*solution-section (button)*/
-.solution__btn-primary {
-  display: inline-block;
-  border-radius: 4px;
-  padding: 10px 32px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  text-align: center;
-  color: #ffffff;
-  background-color: #2196f3;
-  border: 1px solid transparent;
-}
-
-.close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1 solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  background-color: #ffffff;
-  width: 30px;
-  height: 30px;
-  padding: 6px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.close-btn__icon {
-  fill: #000000;
-}
-
-.close-btn:hover .close-btn__icon,
-.close-btn:focus .close-btn__icon {
-  fill: #2196f3;
-}
-
-/*menu-section (buttons)*/
-.menu_btn-secondary {
-  display: block;
-  padding: 6px 22px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  text-align: center;
-  color: #212121;
-  background-color: #f5f4fa;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  font-weight: 500;
-  line-height: 1.62;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu_btn-secondary:hover,
-.menu_btn-secondary:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-/* оформление кнопки в footer */
-.footer-form__btn-footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 29px;
-  padding-right: 28px;
-  margin-left: 12px;
-  color: #ffffff;
-  background-color: #2196f3;
-  border: 0;
-  border-radius: 4px;
-}
-
-.btn-footer::after {
-  content: "";
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
-  vertical-align: middle;
-  background-image: url(../images/icons/send.svg);
-  background-size: contain;
-}
-
-/* Оформление кнопки btn-form form__btn-form */
-.form__btn-form {
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-align: center;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 55px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  border-width: 0;
-  color: #ffffff;
-  background-color: #2196f3;
-  cursor: pointer;
-}
-
-.form__btn-form:hover,
-.form__btn-form:focus {
-  background-color: #188CE8;
-}
-
-.page-nav {
-  align-items: center;
-  justify-content: space-between;
-}
-
-/*menu-nav*/
-/* site-navigation*/
-ul.site-navigation {
+.site-navigation {
   margin-left: 93px;
 }
 
-/* .site-navigation .item { 
-  margin-right: 50px;
-} */
-/* .site-navigation .item:last-child {
-  margin-right: 0px; 
-*/
 .site-navigation__item + .site-navigation__item {
   margin-left: 50px;
 }
 
 .site-navigation__link {
   display: block;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  text-align: center;
   color: #212121;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
 }
 
 .site-navigation__link:hover,
@@ -269,10 +151,10 @@ ul.site-navigation {
   position: relative;
 }
 
-.site-navigation__link--current:after {
+.site-navigation__link--current::after {
   position: absolute;
   left: 0;
-  bottom: -28px;
+  bottom: -34px;
   content: "";
   width: 100%;
   height: 4px;
@@ -280,9 +162,9 @@ ul.site-navigation {
   border-radius: 2px;
 }
 
-/*contact*/
-.contact {
-  margin-left: auto;
+.contact-header {
+  padding: 0;
+  margin-left: 0;
 }
 
 .contact__item + .contact__item {
@@ -291,15 +173,9 @@ ul.site-navigation {
 
 .contact__link {
   color: #757575;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__link:hover,
-.contact__link:focus {
+.contact__link:hover, .contact__link:focus {
   color: #2196f3;
 }
 
@@ -309,7 +185,51 @@ ul.site-navigation {
   margin-right: 10px;
 }
 
-/* Оформление соцсетей (footer) */
+.footer-content {
+  align-items: baseline;
+}
+
+.box-footer:not(:last-child) {
+  margin-right: 70px;
+}
+
+.location-footer {
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.location-footer__text,
+.location-footer__link {
+  margin-top: 0;
+  margin-bottom: 9px;
+  color: #ffffff;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.location-footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.location-footer__link:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-content {
+  align-items: baseline;
+}
+
+.box-footer:not(:last-child) {
+  margin-right: 70px;
+}
+
 .box-socseti {
   display: block;
 }
@@ -318,23 +238,21 @@ ul.site-navigation {
   margin: 0;
   color: #ffffff;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.03;
+  line-height: 1.14;
+  text-decoration: none;
   text-transform: uppercase;
-  text-align: left;
 }
 
-.socseti {
+.social-footer {
   margin-top: 20px;
   justify-content: flex-start;
 }
 
-.socseti__item:not(:last-child) {
+.social-footer__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.socseti__link {
+.social-footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -346,76 +264,20 @@ ul.site-navigation {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socseti__link:hover,
-.socseti__link:focus {
+.social-footer-link:hover,
+.social-footer-link:focus {
   background-color: #2196f3;
 }
 
-/*main*/
-.social {
-  justify-content: center;
+.social-footer-link:hover .social-footer__icon,
+.social-footer-link:focus .social-footer__icon {
+  fill: #ffffff;
 }
 
-.social__item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social__item {
-  margin-bottom: 30px;
-}
-
-.social__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 50%;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social__link:hover,
-.social__link:focus {
-  background-color: #2196f3;
-}
-
-.socseti__icon {
+.social-footer__icon {
   width: 20px;
   height: 20px;
   fill: #ffffff;
-}
-
-.socseti__link:hover .socseti__icon,
-.socseti__link:focus .socseti__icon {
-  fill: #ffffff;
-}
-
-.social__icon {
-  width: 20px;
-  height: 20px;
-  fill: #AFB1B8;
-}
-
-.social__link:hover .social__icon,
-.social__link:focus .social__icon {
-  fill: #ffffff;
-}
-
-/*page-footer*/
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2f303a;
-}
-
-.footer-content {
-  align-items: baseline;
-}
-
-.box-footer:not(:last-child) {
-  margin-right: 70px;
 }
 
 /*оформление form в footer*/
@@ -425,16 +287,14 @@ ul.site-navigation {
   margin-left: 24px;
 }
 
-.footer-form__title {
+.footer-form__title-form {
   margin-top: 0;
   margin-bottom: 20px;
   color: #ffffff;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.03;
+  line-height: 1.14;
+  text-decoration: none;
   text-transform: uppercase;
-  text-align: left;
 }
 
 .footer-form__input {
@@ -450,35 +310,28 @@ ul.site-navigation {
 }
 
 .footer-form__input::placeholder {
-  color: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-/*footer-contact*/
-.box-footer__address {
-  margin-top: 20px;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.address__text,
-.address__contacts {
-  margin-top: 0;
-  margin-bottom: 9px;
-  color: #ffffff;
-  font-family: Roboto;
+/* оформление кнопки в footer */
+.footer-form__btn-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 28px;
+  margin-left: 12px;
+  border: 0;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
-.address__contacts {
-  color: #2f303a;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__contacts:last-child {
-  margin-bottom: 0;
+.footer-form__btn-footer::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  vertical-align: middle;
+  background-image: url(../images/icons/send.svg);
+  background-size: contain;
 }
 /*# sourceMappingURL=general.css.map */

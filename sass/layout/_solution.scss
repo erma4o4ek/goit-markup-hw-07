@@ -11,7 +11,6 @@
   background-position: center;
   background-size: cover;
 
-  font-family: inherit;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -28,11 +27,24 @@
   border-image: url(../images/solution-section/img/fon.jpg);
 }
 
-
 .solution__title {
 
   margin: 0;
   margin-bottom: 30px;
   color: $text-color;
   text-transform: uppercase;
+}
+
+.solution__btn-primary {
+  display: inline-block;
+  padding: 10px 32px;
+  
+  border: 1px solid transparent;
+
+  font-weight: 700;
+  line-height: 1.9;
+  text-align: center;
+
+  text-decoration: none;
+  text-align: center;
 }

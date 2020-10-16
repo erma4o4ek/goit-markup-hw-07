@@ -1,7 +1,6 @@
-/*contact*/
-
-.contact {
-  margin-left: auto;
+.contact-header {
+  padding: 0;
+  margin-left: 0;
 }
 
 .contact__item+.contact__item {
@@ -11,17 +10,11 @@
 .contact__link {
   color: $primary-text-color;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
 
-  transition: opacity 250ms $transition-time;
-}
-
-.contact__link:hover,
-.contact__link:focus {
+  &:hover,
+  &:focus {
   color: $accent-color;
+  }
 }
 
 .contact__mail-icon,
@@ -31,3 +24,37 @@
   margin-right: 10px;
 }
 
+.footer-content {
+  align-items: baseline;
+}
+
+.box-footer:not(:last-child) {
+  margin-right: 70px;
+}
+
+.location-footer {
+  margin-top: 20px;
+
+  flex-direction: column;
+  justify-content: flex-end; 
+}
+
+.location-footer__text,
+.location-footer__link{
+  margin-top: 0;
+  margin-bottom: 9px;
+  color: $text-color;
+
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.location-footer__link {
+  color: $footer-text-color;
+
+  transition: opacity 250ms $transition-time;
+}
+
+.location-footer__link:last-child {
+  margin-bottom: 0;
+}

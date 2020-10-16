@@ -1,16 +1,12 @@
-.page {
-  color: $primary-text-color;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-}
-
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
+
   background-color: $text-color;
+
+  border-bottom: 1px solid $text-color;
 }
 
 .page-nav {
   align-items: center;
-  justify-content: space-between;
 }

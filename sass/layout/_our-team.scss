@@ -7,19 +7,17 @@
   margin-bottom: 50px;
 
   color: $title-text-color;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 
-.our-teams {
+.ours-teams {
   flex-wrap: wrap;
 }
 
-.our-teams__item {
+.ours-teams__item {
   width: calc(100% - 90px) / 4;
   margin-right: 30px;
 
@@ -30,30 +28,27 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.our-teams__item:nth-child(4n) {
+.ours-teams__item:nth-child(4n) {
   margin-right: 0px;
 }
 
-
-.our-teams__title {
+.ours-teams__title {
   margin-top: 30px;
   margin-bottom: 0px;
 
   color: $title-text-color;
 
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.our-teams__text {
+.ours-teams__text {
   margin-top: 10px;
   margin-bottom: 30px;
   color: $primary-text-color;
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;

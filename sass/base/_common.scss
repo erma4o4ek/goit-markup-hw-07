@@ -8,48 +8,58 @@
   box-sizing: border-box;
 }
 
-.list {
-  margin-top: 0;
-  margin-bottom: 0;
-  list-style: none;
+.page {
+  color: $primary-text-color;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .flexbox {
   display: flex;
 }
 
-.image {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.text{
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
   font-family: inherit;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-
-
 
 .\visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
@@ -67,4 +77,8 @@ input[type="radio"].visually-hidden {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.fon {
+  background-color: $footer-main-color;
 }
