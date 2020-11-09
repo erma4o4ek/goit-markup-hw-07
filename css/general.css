@@ -185,6 +185,16 @@ input[type="radio"].visually-hidden {
   margin-right: 10px;
 }
 
+.contact__link:hover .contact__mail-icon,
+.contact__link:focus .contact__mail-icon {
+  fill: #2196f3;
+}
+
+.contact__link:hover .contact__phone-icon,
+.contact__link:focus .contact__phone-icon {
+  fill: #2196f3;
+}
+
 .footer-content {
   align-items: baseline;
 }
