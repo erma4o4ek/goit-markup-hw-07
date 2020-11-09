@@ -62,7 +62,8 @@
   
 }
 
-.location-footer__link {
+.location-footer .location-footer__link {
+  display: block;
   color: $footer-text-color;
 
   transition: opacity 250ms $transition-time;
