@@ -30,7 +30,7 @@ a {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -275,6 +275,7 @@ input[type="radio"].visually-hidden {
 
 .projects__box:hover .projects__overlay {
   transform: translateY(0);
+  cursor: pointer;
 }
 
 .projects__overlay {
@@ -367,8 +368,8 @@ input[type="radio"].visually-hidden {
 
 /*оформление form в footer*/
 .footer-form {
-  padding-top: 72px;
-  padding-bottom: 94px;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-left: 24px;
 }
 
@@ -389,6 +390,7 @@ input[type="radio"].visually-hidden {
   padding-bottom: 15px;
   padding-left: 16px;
   background-color: transparent;
+  color: rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;

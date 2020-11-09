@@ -1,5 +1,6 @@
 .socials{
     justify-content: center;
+    
 }
 
 .socials__item:not(:last-child) {
@@ -22,6 +23,8 @@
 .socials__link:hover,
 .socials__link:focus{
     background-color: $accent-color;
+
+    cursor: pointer;
 }
 
 .socials__link:hover .socials__icon,

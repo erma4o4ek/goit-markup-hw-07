@@ -85,6 +85,8 @@ overflow: hidden;
 
 .projects__box:hover .projects__overlay {
   transform: translateY(0);
+
+  cursor: pointer;
 }
 
 .projects__overlay {

@@ -44,11 +44,12 @@
 
   top: 50%;
   left:50%;
-  transform: translate(-51.3%, 90%);
+  transform: translate(-50%, 90%);
 
   font-weight: 700;
   line-height: 1.64;
   text-align: center;
+  text-transform: uppercase;
 
   color: $text-color;
   background-color: $thumb-color;

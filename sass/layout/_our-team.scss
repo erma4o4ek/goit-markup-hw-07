@@ -1,5 +1,6 @@
 .our-team {
   text-align: center;
+  background-color: $bg-color-our-team;
 }
 
 .our-team__title {
@@ -15,9 +16,11 @@
 
 .ours-teams {
   flex-wrap: wrap;
+
 }
 
 .ours-teams__item {
+  padding-bottom: 30px;
   width: calc(100% - 90px) / 4;
   margin-right: 30px;
 
