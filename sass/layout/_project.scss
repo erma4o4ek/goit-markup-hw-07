@@ -20,6 +20,8 @@
   list-style: none;
 
   transition: opacity 250ms $transition-time;
+
+  cursor: pointer;
 }
 
 
@@ -83,10 +85,10 @@ position: relative;
 overflow: hidden;
 }
 
-.projects__box:hover .projects__overlay {
+.projects__box:hover .projects__overlay, 
+.projects__item:hover .projects__overlay {
   transform: translateY(0);
 
-  cursor: pointer;
 }
 
 .projects__overlay {

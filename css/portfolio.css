@@ -217,6 +217,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   list-style: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .projects__item {
@@ -273,9 +274,9 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-.projects__box:hover .projects__overlay {
+.projects__box:hover .projects__overlay,
+.projects__item:hover .projects__overlay {
   transform: translateY(0);
-  cursor: pointer;
 }
 
 .projects__overlay {
